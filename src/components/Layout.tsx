@@ -24,7 +24,7 @@ export default function Layout({ title, keywords, description, children }: Layou
       </Head>
 
       <Header />
-      <main className="container flex-grow bg-red-100 sm:px-6">{children}</main>
+      <main className="container flex-grow sm:px-6">{children}</main>
       <Footer />
     </div>
   );
