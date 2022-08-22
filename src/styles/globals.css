@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  a,
+  button {
+    @apply cursor-pointer;
+  }
+  button {
+    @apply outline-none focus:outline-none;
+  }
+
+  input,
+  textarea {
+    @apply bg-transparent outline-none focus:outline-none;
+  }
+}
