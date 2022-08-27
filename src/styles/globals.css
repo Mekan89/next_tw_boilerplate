@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    /* @apply text-gray-500 bg-white dark:text-gray-400 dark:bg-gray-900; */
+  }
   a,
   button {
     @apply cursor-pointer;
